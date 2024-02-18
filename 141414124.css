@@ -1,6 +1,3 @@
-
-
-
 .user {
   background: #f8f8f8;
   border-radius: 4px;
@@ -18,18 +15,13 @@
 }
 
 .user__courses {
-  margin-top: 5px; /* Adjust top margin */
-}
-
-.user__courses--list {
-  list-style: none; /* Remove default list styles */
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .user__courses--course {
-  display: inline-block; /* Display courses inline */
-  margin-right: 5px; /* Adjust right margin */
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 .user__courses--course span {
@@ -58,21 +50,7 @@
 }
 
 .user-block img {
-  width: 100px; /* Set the width to your desired size */
-  height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+        width: 100px; /* Set the width to your desired size */
+        height: auto; /* Let the height adjust automatically to maintain aspect ratio */
 }
 
-.courses-list {
-  background-color: rgba(116, 97, 97, 0.7);
-  display: flex;
-  justify-content:center;
-  font-size: 17px; 
-  list-style-type: none;
-  padding: 0;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-.courses-list li {
-  margin-right: 10px; /* Adjust the margin between list items */
-}
